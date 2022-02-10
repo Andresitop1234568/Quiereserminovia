@@ -1,26 +1,35 @@
 *{
     margin: 0;
+    font-family:Georgia, Times, 'Times New Roman', serif; 
+    
 }
 
 .contenedor{
-    background: cadetblue;
-    width: 100vw;
-    height: 100vh;
+    background-image: url(https://fondosmil.com/fondo/35285.jpg);
     text-align: center;
+    z-index: 1;
+    height: 100vh;
 }
 
 p{
-    font-size: xx-large;
+    font-size: 65px;
     padding: 15%;
+    font-weight:bold;
+    border-bottom:1px solid  rgba(0, 0, 0, 0.979)  ; 
+    color: aliceblue;
+
+
 }
 
 button{
     font-size: xx-large;
     padding: 0.75em;
+    z-index: 3 ;
 }
 
 #yesBtn{
     transform: translate(-100%,0);
+    z-index: 10;
 }
 
 #noBtn{

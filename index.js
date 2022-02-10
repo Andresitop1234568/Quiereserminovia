@@ -1,7 +1,11 @@
 const yesBtn = document.querySelector('#yesBtn');
-
+var titulo=document.querySelector("#texto");
 yesBtn.addEventListener('click',function () {
-    alert('Sabia que ibas a decir que si uwu')
+    
+    
+    titulo.textContent="Te amo chichona ❤";
+    noBtn.style ="display:none"
+    yesBtn.style ="display:none"
 });
 
 const noBtn = document.querySelector('#noBtn');
